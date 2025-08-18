@@ -13,7 +13,7 @@ Tecnologías
 - Bootstrap 5
 - JavaScript básico (para interacciones y animaciones)
 
-  Funcionalidades
+Funcionalidades
 
 - Diseño completamente responsive (mobile, tablet, desktop)
 - Maquetado con Bootstrap y Flexbox/Grid
