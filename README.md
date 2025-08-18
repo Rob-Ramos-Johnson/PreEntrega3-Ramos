@@ -1,19 +1,19 @@
-# PreEntrega3 – Cafetería
+PreEntrega3 – Cafetería
 
-Sitio web de una cafetería ficticia, desarrollado como parte del curso de Desarrollo Web en Coderhouse. El proyecto está diseñado para ser responsive y optimizado, con estilos gestionados mediante SCSS.
+ Sitio web de una cafetería ficticia, desarrollado como parte del curso de Desarrollo Web en Coderhouse. El proyecto está diseñado para ser responsive y optimizado, con estilos gestionados mediante SCSS.
 
-## Demo
+Demo
 
-[Ver sitio online](https://rob-ramos-johnson.github.io/PreEntrega3-Ramos/)
+ Ver sitio online: https://rob-ramos-johnson.github.io/PreEntrega3-Ramos/
 
-## Tecnologías
+Tecnologías
 
 - HTML5 semántico
 - SCSS (compilado a CSS)
 - Bootstrap 5
 - JavaScript básico (para interacciones y animaciones)
 
-## Funcionalidades
+Funcionalidades
 
 - Diseño completamente responsive (mobile, tablet, desktop)
 - Maquetado con Bootstrap y Flexbox/Grid
@@ -22,10 +22,6 @@ Sitio web de una cafetería ficticia, desarrollado como parte del curso de Desar
 - Control de versiones con Git: ramas, merge y tags (v1.0)
 - Uso de `.gitignore` para evitar archivos innecesarios
 
-## Instalación local
+bash:
+ git clone https://github.com/Rob-Ramos-Johnson/PreEntrega3-Ramos.git
 
-Para trabajar localmente, clonar el repositorio:
-
-```bash
-git clone https://github.com/Rob-Ramos-Johnson/PreEntrega3-Ramos.git
-cd PreEntrega3-Ramos
