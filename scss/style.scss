@@ -1,0 +1,17 @@
+// Variables y utilidades
+@import 'variables';
+@import 'mixins';
+
+// Layout base
+@import 'body';
+@import 'header';
+@import 'nav';
+@import 'footer';
+
+// Secciones
+@import 'menu';     // menú de la cafetería
+@import 'galeria';  // galería de imágenes
+@import 'nosotros'; // sección "nosotros"
+
+// Animaciones
+@import 'animaciones';

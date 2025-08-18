@@ -1,0 +1,19 @@
+{
+  "name": "cafeteria1",
+  "version": "1.0.0",
+  "description": "PreEntrega2 - Cafetería",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/style.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rob-Ramos-Johnson/PreEntrega2-Ramos.git"
+  },
+  "author": "Roberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rob-Ramos-Johnson/PreEntrega2-Ramos/issues"
+  },
+  "homepage": "https://github.com/Rob-Ramos-Johnson/PreEntrega2-Ramos#readme"
+}

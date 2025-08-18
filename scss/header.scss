@@ -1,0 +1,68 @@
+/* Header */
+
+.header {
+  padding: 5rem 0;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &::before {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+  }
+
+  .contenido-header {
+    position: relative;
+
+    h1 {
+      text-align: center;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      margin-top: 5rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    min-height: 70rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header .contenido-header h1 {
+    margin-top: 10rem;
+  }
+}
+
+.header-inicio {
+  background-image: url(../img/header_inicio.jpg);
+}
+
+.header-nosotros {
+  background-image: url(../img/header_nosotros.jpg);
+}
+
+.header-menu {
+  background-image: url(../img/header_menu.jpg);
+}
+
+.header-galeria {
+  background-image: url(../img/header_galeria.jpg);
+}
+
+.header-contacto {
+  background-image: url(../img/header_contacto.jpg);
+}
+
+.header .texto-header h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
