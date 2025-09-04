@@ -45,3 +45,56 @@
     margin-bottom: 0;
   }
 }
+
+.footer-box.redes {
+  display: flex;
+  flex-wrap: wrap;       
+  align-items: center;   
+  justify-content: center;
+  gap: 10px;             
+  margin-top: 2rem;      // ← esto hace que baje el bloque
+
+  h3 {
+    margin: 0;
+    font-size: 2rem;
+    color: #C39C63;
+  }
+
+  .iconos-redes {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    a img {
+      width: 35px;
+      height: 35px;
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-box.redes {
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 2.5rem; // un poco menos en móvil
+
+    h3 {
+      font-size: 1.8rem;
+    }
+
+    .iconos-redes {
+      justify-content: center;
+      gap: 8px;
+
+      a img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}
