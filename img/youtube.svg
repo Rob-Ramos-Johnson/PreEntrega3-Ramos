@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <defs>
+    <linearGradient id="youtubeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF0000"></stop>
+      <stop offset="100%" stop-color="#C10000"></stop>
+    </linearGradient>
+  </defs>
+  <path fill="url(#youtubeGradient)" d="M23.5 6.2c-.3-1.2-1.2-2.1-2.4-2.4C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.1.3c-1.2.3-2.1 1.2-2.4 2.4C0 7.8 0 12 0 12s0 4.2.5 5.8c.3 1.2 1.2 2.1 2.4 2.4C4.5 20.5 12 20.5 12 20.5s7.5 0 9.1-.3c1.2-.3 2.1-1.2 2.4-2.4.5-1.6.5-5.8.5-5.8s0-4.2-.5-5.8zM9.5 15.5V8.5l6 3.5-6 3.5z"></path>
+</svg>
