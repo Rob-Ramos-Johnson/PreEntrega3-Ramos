@@ -1,84 +1,56 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-PreEntrega3 - Cafetería
-=======
-PreEntrega3 – Cafetería
->>>>>>> main
+*Proyecto Final - La Cafetería
 
-Sitio web de una cafetería ficticia, desarrollado como parte del curso de Desarrollo Web en Coderhouse. El proyecto está diseñado para ser responsive y optimizado, con estilos gestionados mediante SCSS.
+*Descripción
+Este proyecto final corresponde al curso de Desarrollo Web.  
+Se trata de un sitio web completo para una cafetería ficticia, con cinco secciones principales: "Inicio, Nosotros, Menú, Galería y Contacto".  
 
-Demo
+La página principal es index.html, donde se presentan la bienvenida, los iconos de servicios, la galería y un resumen del menú.  
 
-<<<<<<< HEAD
-Ver sitio online https://rob-ramos-johnson.github.io/PreEntrega3-Ramos/ 
+El objetivo del proyecto fue aplicar conocimientos de "HTML, CSS, SASS, Bootstrap, animaciones, diseño responsive y SEO".
 
-Tecnologías
+*Page: https://rob-ramos-johnson.github.io/Proyecto_Final-Ramos/index.html
 
+#Repositorio: https://github.com/Rob-Ramos-Johnson/Proyecto_Final-Ramos/tree/v2
+
+*Estructura del Proyecto
+Proyecto_Final-Ramos/
+├─ index.html
+├─ pages/  
+│  ├─ nosotros.html  
+│  ├─ menu.html  
+│  ├─ galeria.html  
+│  └─ contacto.html  
+├─ css/  
+│  └─ style.css  
+├─ scss/  
+│  ├─ _animaciones.scss  
+│  ├─ _body.scss  
+│  ├─ _footer.scss  
+│  ├─ _galeria.scss  
+│  ├─ _header.scss  
+│  ├─ _menu.scss  
+│  ├─ _mixins.scss  
+│  ├─ _nav.scss  
+│  ├─ _nosotros.scss  
+│  ├─ _variables.scss  
+│  └─ style.scss  
+├─ img/imagenes/  
+└─ README.md  
+
+ *Tecnologías Utilizadas
 - HTML5
-- SCSS (compilado a CSS)
+- CSS3 / SASS (modular con partials)
 - Bootstrap 5
-- JavaScript básico (si agregaste interacciones o animaciones)
+- Flexbox y CSS Grid
+- JavaScript (animaciones e interacciones)
+- Git y GitHub
+- GitHub Pages para despliegue
 
-Funcionalidades
-
-- Diseño responsive
-- Maquetado con Bootstrap
-- Animación en el logo principal del proyecto
-- Estructura clara de carpetas y archivos
-- Uso de Git con ramas, merge y .gitignore
-- Versionado con Git tags (v1.0)
-
-
-
-bash
-git clone https://github.com/Rob-Ramos-Johnson/PreEntrega3-Ramos.git
-=======
-Ver sitio online: https://rob-ramos-johnson.github.io/PreEntrega3-Ramos/
-
-Tecnologías
-
-- HTML5 semántico
-- SCSS (compilado a CSS)
-- Bootstrap 5
-- JavaScript básico (para interacciones y animaciones)
-
-Funcionalidades
-
-- Diseño completamente responsive (mobile, tablet, desktop)
-- Maquetado con Bootstrap y Flexbox/Grid
-- Animación en el logo principal
-- Estructura clara de carpetas y archivos
-- Control de versiones con Git: ramas, merge y tags (v1.0)
-- Uso de .gitignore para evitar archivos innecesarios
-
-bash: git clone https://github.com/Rob-Ramos-Johnson/PreEntrega3-Ramos.git
->>>>>>> main
-=======
-PreEntrega3 – Cafetería
-
- Sitio web de una cafetería ficticia, desarrollado como parte del curso de Desarrollo Web en Coderhouse. El proyecto está diseñado para ser responsive y optimizado, con estilos gestionados mediante SCSS.
-
-Demo
-
- Ver sitio online: https://rob-ramos-johnson.github.io/PreEntrega3-Ramos/
-
-Tecnologías
-
-- HTML5 semántico
-- SCSS (compilado a CSS)
-- Bootstrap 5
-- JavaScript básico (para interacciones y animaciones)
-
-Funcionalidades
-
-- Diseño completamente responsive (mobile, tablet, desktop)
-- Maquetado con Bootstrap y Flexbox/Grid
-- Animación en el logo principal
-- Estructura clara de carpetas y archivos
-- Control de versiones con Git: ramas, merge y tags (v1.0)
-- Uso de `.gitignore` para evitar archivos innecesarios
-
-bash:
- git clone https://github.com/Rob-Ramos-Johnson/PreEntrega3-Ramos.git
-
->>>>>>> e5a35945266108af71a687d0d5eacd7c598cc79b
+ *Funcionalidades
+- Página principal con bienvenida, iconos de servicios, galería y menú destacado  
+- Diseño responsive para móviles y desktop  
+- Menú interactivo y galería de imágenes  
+- Formulario de contacto con estilos personalizados  
+- Animaciones y transiciones en elementos clave  
+- Optimización SEO básica con meta tags y textos descriptivos  
+- Código modular y limpio usando SASS, con partials para mantener organización
